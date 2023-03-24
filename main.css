@@ -1,0 +1,144 @@
+nav {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        background-color: rgb(59, 54, 54);
+        color: white;
+        width: 100vw;
+}    
+.heading-fade {
+    position: absolute;
+    left: 1%;
+    top: 15px;
+}
+.hello {
+    font-size: 70px;
+    color: white;
+}
+.whoami {
+    position: relative;
+    width: 500px;
+    height: auto;
+    color: white;
+    font-size: xx-large;
+    left: 5%;
+    top: 150px;
+}
+span  {
+    color: rgb(29, 243, 9);    
+}
+.tk-blob {
+    width: 50%;
+    position: absolute;
+    bottom: 400px;
+    left: 130%;
+}
+.blob2 {
+    position: absolute;
+    left: 160%;
+    width: 45%;
+}
+.my-stack {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    color: white;
+    font-size: xx-large;
+    left: 60%;
+    top: 1000px;
+}
+.stack1 {
+    font-size: 70px;
+}
+.icons {
+    font-size: 90px;
+    display: inline-flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    width: calc(500px);
+
+}
+#icon {
+    width: 70px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.icons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+body {
+    -webkit-box-align: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.certs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#projects h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+@media all and (max-width:770px) {
+    .hello {
+        font-size: 50px;
+    }
+
+    .whoami p {
+        font-size: 25px;
+    }
+
+    .blob1, .blob2 {
+        display: none;
+    }
+
+    #icon {
+        width: 40px;
+    } 
+
+    .icons {
+        width: 100vw;
+        position: absolute;
+        right: -5%;
+        top: 150%;
+    }
+
+    .my-stack {
+        left: 5%;
+        top: 900px;
+    }
+
+    .my-stack h1 {
+        font-size: 50px;
+    }
+    .my-stack p {
+        width: 400px;
+    }
+
+    #projects h1 {
+        font-size: 20px;
+    }
+
+    #contact h1 {
+        font-size: 20px;
+    }
+
+}
