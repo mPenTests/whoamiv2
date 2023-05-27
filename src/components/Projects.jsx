@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div id='projects'>
             <Fade top>
-                <h1>This area will be populated soon!!</h1>
+                <h1>Hire an Assasin: hire-an-assasin.vercel.app</h1>
             </Fade>
         </div>
     );
